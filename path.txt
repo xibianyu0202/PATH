@@ -1,0 +1,5 @@
+添加PATH路径
+export PATH=/usr/local/mycat/bin:$PATH
+echo "PATH=/usr/local/mycat/bin:$PATH" >> /etc/profile
+source /etc/profile
+echo $PATH
